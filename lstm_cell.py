@@ -1,4 +1,7 @@
+# Single LSTM cell
+
 import numpy as np
+
 
 class LSTM_cell:
     def __init__(self):

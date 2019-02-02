@@ -1,8 +1,11 @@
+# Main game file
+
 import numpy as np
 import random
 from grid import Grid
 from alice import Alice
 from cm import CM
+
 
 grid = Grid(25)
 alice = Alice(25, grid)

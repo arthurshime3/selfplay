@@ -1,5 +1,10 @@
+# Basic grid environment
+# Consists of a start position, goal position, and key position
+# Alice wants to find the key and then reach the goal in the least amount of steps possible
+
 import numpy as np
 import random
+
 
 class Grid:
     def __init__(self, dim):

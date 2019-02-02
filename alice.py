@@ -1,4 +1,7 @@
+# Alice agent
+
 import random
+
 
 class Alice:
     def __init__(self, dim, grid):

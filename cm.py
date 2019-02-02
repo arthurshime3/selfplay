@@ -1,5 +1,8 @@
+# Communication Model - Bidirectional LSTM
+
 import numpy as np
 from lstm_cell import LSTM_cell
+
 
 class CM:
     def __init__(self, data):
@@ -72,14 +75,14 @@ class CM:
 
         self.backpropagate()
 
-    def run_actual(self):
-        for i in range(epochs):
-            trained_scores = []
-            ii = 0
-            epoch_loss = []
-            while (ii + batch_size) <= len(self.X_train):
-                X_batch = self.X_train[ii:ii + batch_size]
-                y_batch = self.y_train[ii:ii + batch_size]
-
-
-                ii += batch_size
+    # def run_actual(self):
+    #     for i in range(epochs):
+    #         trained_scores = []
+    #         ii = 0
+    #         epoch_loss = []
+    #         while (ii + batch_size) <= len(self.X_train):
+    #             X_batch = self.X_train[ii:ii + batch_size]
+    #             y_batch = self.y_train[ii:ii + batch_size]
+    #
+    #
+    #             ii += batch_size
